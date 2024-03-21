@@ -20,13 +20,7 @@ window.addEventListener('resize', function() {
         location.reload();
     }
 });
-// Agregar la clase "closed" al menú desplegable por defecto
-const menuItems = document.querySelector('.menu-items');
-menuItems.classList.add('closed');
 
-// Agregar evento click al botón de desplegable para abrir/cerrar el menú
-const menuToggle = document.querySelector('.menu-toggle');
-menuToggle.addEventListener('click', function() {
-    menuItems.classList.toggle('closed');
-});
+
+  
 
