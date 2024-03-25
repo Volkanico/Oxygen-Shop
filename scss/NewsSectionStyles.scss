@@ -1,55 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @media screen and (min-width: 320px) and (max-width: 1000px) {
     .news{
         background-color: #F7F7F7;
-        padding:4rem;
+        padding:2rem;
         display: block;
     }
     .article-one{
-        background-position: 8rem 2rem;
+        
+        background-position: 9.6rem 0rem;
         background-image: url('../img/icons/Frame\ 11.png');
-        background-size: 7rem 7rem;
+        background-size: 6rem 6rem;
         background-repeat: no-repeat;
+        padding-top:2rem
     }
-        .article-one div{
-            height:6rem;
-            width:100%;
-        }
-            .article-one div img {
-                
+            .article-one img {    
+                height:5.2rem;
                 width:10rem;
-                height:6rem;
                 display: block;
-                margin: 0 auto; 
-                
+                margin:0 auto        
             }
-        .article-two{
+            .article-one h3 {
+                padding:1rem;
+                font-family: "Raleway";
+                font-weight: 400;
+                font-size:30px;
+            }
+
+            .article-one p {
+                padding:2rem 1rem 2rem 1rem;
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+       .article-two{
+            padding-top:1rem;
+            margin-top:2rem;
             background-color:white;
-            background-position: 4rem 3.6rem;
+            background-position: 6rem 1rem;
             background-image: url('../img/icons/Ellipse\ 3.png');
             background-size: 7rem 7rem;
             background-repeat: no-repeat;
         }
-
-        .article-two div{
-            height:6rem;
-            width:100%;
-        }
-            .article-two div img {
+            .article-two img {
                 
                 width:9rem;
                 height:7.2rem;
                 display: block;
-                margin: 0 auto; 
-                
+                margin-top:0.6rem;
+                margin-left:6rem;
             }
+            .article-two h3 {
+                padding:1rem 3rem 0rem 1rem;
+                font-family: "Raleway";
+                font-weight: 400;
+                font-size:30px;
+            }
+
+            .article-two p {
+                padding:2rem 1rem 2rem 1rem;
+                font-size: 14px;
+                font-weight: 400;
+            }
+             
         .article-three{
+            padding-top:1rem;
             background-color:white;
+            margin-top:2rem;
+        }
+        .article-three img {
+            margin:0 auto;
+            padding:2rem 0rem 0rem 0rem;
+            
+        }
+        .article-three h3 {
+            padding:1rem 3rem 0rem 1rem;
+            font-weight: 400;
+            font-size:30px;
+        }
+
+        .article-three p {
+            padding:2rem 2rem 2rem 1rem;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .article-three div{
+            background-color: #55DFB4;
+            height:12rem;
+            
         }
         .article-one,
         .article-two,
         .article-three {
             background-color: white;
-            padding:4rem;
+            
         }
 }
 
