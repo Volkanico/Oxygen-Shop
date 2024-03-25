@@ -25,7 +25,6 @@
                 font-weight: 400;
                 font-size:30px;
             }
-
             .article-one p {
                 padding:2rem 1rem 2rem 1rem;
                 font-size: 14px;
@@ -66,6 +65,7 @@
             padding-top:1rem;
             background-color:white;
             margin-top:2rem;
+            
         }
         .article-three img {
             margin:0 auto;
@@ -84,7 +84,7 @@
             font-weight: 400;
         }
 
-        .article-three div{
+        .article-three .article-three-img{
             background-color: #55DFB4;
             height:12rem;
             
@@ -98,5 +98,131 @@
 }
 
 @media screen and (min-width: 1000px) {
+    .news{
+        background-color: #F7F7F7;
+        padding:6rem 10rem 6rem 10rem;
+        display: block;
+    }
+    .article-one{
+        display: flex;
+        flex-direction:row-reverse;
+        padding-top:2rem;
+        background-color: white;
+    }
+            .article-one .article-one-img {
+                width:50%;
+            }
+            .article-one-img {
+                margin-right:4rem
+            }
+            .article-one img {    
+                padding:4rem 4rem 4rem 4rem;  
+                background-position: 16rem 0rem;
+                background-image: url('../img/icons/Rectange\ 30.png');
+                background-size: 14rem 14rem;
+                background-repeat: no-repeat;
+                    
+            }
+            .article-one-text{
+                padding-top:2rem;
+                
+            }
+            .subline-red {
+                margin-left:1rem;
+                border-bottom: 2px #FB3B64 solid;
+                width:80%;
+            }
+            
+            .article-one h3 {
+                padding:1rem;
+                font-family: "Raleway";
+                font-weight: 400;
+                font-size:30px;
+            }
+            .article-one p {
+                padding:2rem 0rem 2rem 1rem;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .article-two{
+                margin-top:2rem;
+                display: flex;
+                padding-top:2rem;
+                background-color: white;
+            }
+            .article-two .article-two-img {
+                width:50%;
+            }
+                .article-two img {
+                    padding:1.4rem 4rem 0rem 4rem;  
+                    background-position: 4rem 1rem;
+                    background-image: url('../img/icons/Ellipse\ 3.png');
+                    background-size: 19rem 19rem;
+                    background-repeat: no-repeat;
+                    margin:0 auto;
+                }
+                .article-two-text{
+                    padding-top:2rem;
+                    
+                }
+                .article-two h3 {
+                    padding: 1rem 14rem 1rem 12rem;
+                    font-family: "Raleway";
+                    font-weight: 400;
+                    font-size:30px;
+                }
+    
+                .article-two p {
+                    padding:2rem 1rem 2rem 12rem;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+                .subline-blue {
+                    margin-left:12rem;
+                    border-bottom: 2px #08A6E4 solid;
+                    width:54%;
+                }
 
+                .article-three{
+                    display:flex;
+                    background-color:#F7F7F7;
+                    margin-top:2rem;
+                }
+                
+                .article-three-text{
+                    background-color: white;
+                    width:50%;
+                    margin-right:4rem;
+                }
+                .article-three h3 {
+                    margin-top:4rem;
+                    padding:0rem 14rem 0rem 1rem;
+                    font-weight: 400;
+                    font-size:30px;
+                }
+        
+                .article-three p {
+                    padding:2rem 2rem 2rem 1rem;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+        
+                .article-three .article-three-img{
+                    width:50%;
+                    background-color: #55DFB4;
+                }
+                .article-three .article-three-img img{
+                    margin:4rem 5rem 1rem 7rem;
+                    height:16rem;
+                    width:20rem;
+                }
+
+                .subline-green {
+                    margin-left:1rem;
+                    border-bottom: 2px #55DFB4 solid;
+                    width:80%;
+                    
+                }
+                
+      
 }
