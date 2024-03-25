@@ -1,40 +1,40 @@
-.post{
+.popular-sales__post{
     text-align: center;
     
 }
-    .background-circle-red {
+    .post__background-circle-red {
         background-image: url('../img/icons/Ellipse\ 1.png');
     }
-        .background-circle-red img {
+        .post__background-circle-red img {
             margin: 0.8rem 0rem 0rem 2.8rem
         }
-    .background-circle-blue {
+    .post__background-circle-blue {
         background-image: url('../img/icons/Ellipse\ 2.png');
     }
-        .background-circle-blue img {
+        .post__background-circle-blue img {
             margin: 1.2rem 0rem 0rem 2.8rem
         }
-    .background-circle-green {
+    .post__background-circle-green {
         background-image: url('../img/icons/Ellipse\ 1\ \(1\).png');   
     }
-        .background-circle-green img {
+        .post__background-circle-green img {
             margin: 1rem 0rem 0rem 2.8rem
         }
-    .background-circle-red,
-    .background-circle-green,
-    .background-circle-blue {
+    .post__background-circle-red,
+    .post__background-circle-green,
+    .post__background-circle-blue {
         height:5rem;
         background-repeat: no-repeat;
         background-position:50%;
         margin-right:1rem;
     }
-.post-title {
+.post__title {
     padding-top:0.6rem;
     font-weight:900;
     letter-spacing: 0.4rem;
 }
 
-.post-desc {
+.post__desc {
     color: #A5A5A5;
     font-size: 16px;
     text-align: center;

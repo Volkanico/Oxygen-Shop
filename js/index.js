@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const menuItems = document.querySelector('.menu-items');
-    const closeBtn = document.querySelector('.close-btn');
+    const menuToggle = document.querySelector('.navbar__menu-toggle');
+    const menuItems = document.querySelector('.navbar__navbar-right__menu-items');
+    const closeBtn = document.querySelector('.navbar__close-btn');
 
     menuToggle.addEventListener('click', function () {
         menuItems.style.display = 'block';
