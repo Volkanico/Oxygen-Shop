@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -422,6 +423,172 @@ body {
     margin-left: 1rem;
     border-bottom: 2px #55DFB4 solid;
     width: 80%;
+  }
+}
+.pricings__pricing-title {
+  margin: 3rem 0rem 0.5rem 0rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: "Raleway";
+  margin-bottom: 1rem;
+}
+
+.pricings__plan-basic,
+.pricings__plan-professional,
+.pricings__plan-premium {
+  border-radius: 16px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0;
+  margin-bottom: 4rem;
+}
+
+.pricings__plan-basic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #FB3B64;
+}
+
+.pricings__plan-professional:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #07ACE6;
+}
+
+.pricings__plan-premium:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #55DFB4;
+}
+
+.pricings__plan-basic {
+  border: 1px #FB3B64 solid;
+}
+
+.pricings__plan-professional {
+  border: 1px #07ACE6 solid;
+}
+
+.pricings__plan-premium {
+  border: 1px #55DFB4 solid;
+}
+
+.plan-basic__price,
+.plan-professional__price,
+.plan-premium__price {
+  width: 50%;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: 2.8rem;
+}
+
+.plan-basic__price h3 {
+  font-size: 20px;
+}
+
+.plan-basic__price .plan-basic__price__price {
+  font-size: 46px;
+  font-weight: 300;
+  color: #FB3B64;
+}
+
+.plan-professional__price .plan-professional__price__price {
+  font-size: 46px;
+  font-weight: 300;
+  color: #07ACE6;
+}
+
+.plan-premium__price .plan-premium__price__price {
+  font-size: 46px;
+  font-weight: 300;
+  color: #55DFB4;
+}
+
+.plan-professional__limited-offer,
+.plan-premium__limited-offer {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.plan__attributes {
+  padding: 1rem 0rem 2rem 0rem;
+  width: 50%;
+  display: inline-block;
+}
+
+.plan-basic__button,
+.plan-professional__button,
+.plan-premium__button {
+  margin: 0 auto;
+  padding-top: 0.8rem;
+  height: 3rem;
+  width: 9.4rem;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 24px;
+  border-color: #FB3B64;
+}
+
+.plan-basic__button {
+  background-color: #FB3B64;
+  margin-top: 1rem;
+  margin-bottom: -1.6rem;
+}
+
+.plan-professional__button {
+  background-color: #07ACE6;
+  margin-bottom: -1.6rem;
+}
+
+.plan-premium__button {
+  background-color: #55DFB4;
+  margin-bottom: -1.6rem;
+}
+
+.attributes__check-attribute {
+  display: block;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.attributes__check-attribute img {
+  margin-right: 5px;
+}
+
+.attributes__check-attribute span {
+  font-size: 14px;
+}
+
+.checkbox-text {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .pricings {
+    display: block;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .pricings {
+    padding: 4rem 10rem 4rem 10rem;
+  }
+  .pricings__plans {
+    display: flex;
+  }
+  .pricings__plan-basic,
+  .pricings__plan-professional,
+  .pricings__plan-premium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 1rem 0rem 1rem;
+    padding-top: 2rem;
+  }
+  .plan__attributes {
+    text-align: center;
+  }
+  .pricings__pricing-title {
+    margin-bottom: 3rem;
   }
 }
 
