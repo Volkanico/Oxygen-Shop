@@ -1,0 +1,178 @@
+        .form-section__contact p {
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom:2rem;
+        }
+
+            .form__name label,
+            .form__email label {
+                font-size: 11px;
+                font-weight: 600;
+                color:#08A6E4;
+                text-transform: uppercase;
+                margin-bottom:1rem;
+                letter-spacing: 3.28px;
+            }
+            
+            .form__name label,
+            .form__name input,
+            .form__email label,
+            .form__email input {
+                display: block;
+            }
+            .form__name input,
+            .form__email input {
+                width:100%;
+                border: none;
+                border-bottom: 1px solid #95989A;
+                outline: none;
+            }
+
+            .form-policy {
+              position:top;
+            }
+            
+            .form__policy-check {
+                width: 5%;
+                padding-top:2.6rem;
+            }
+            .form__policy-check__checkbox{
+                height:1.6rem;
+                width:1.6rem;
+                border-radius: 4px;
+            }
+            .form__policy-check__checkbox:checked {
+                background-image: url('../img/icons/Checkmark\ 1.png'); /* Icono de check azul */
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 1rem 1rem;
+                border:1px #08A6E4 solid;
+                border-radius: 4px;
+                appearance: none;  
+            }
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+    .form-section {
+        padding:2rem;
+       }
+    .form-section__contact {
+        margin-bottom:4rem;
+    }
+    .contact__phone {
+        color:#A5A5A5;
+        margin-top:0.8rem;
+        font-size:16px;
+    }
+    .contact__email {
+        color:#A5A5A5;
+        font-size:16px;
+    }
+    .contact__email img {
+        vertical-align: middle;
+        margin-right:0.6rem;
+    }
+    
+    .contact__phone img {
+        vertical-align: middle;
+        margin-right:0.6rem;
+    }
+    .form-section__contact h2 {
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: 40px;
+        margin-bottom:0.8rem;
+        
+    }
+    .form_button {
+        margin-top:2rem;
+        margin-left:5rem;
+        background-color: #08A6E4;
+        color:white;
+        font-size: 13px;
+        font-weight: 700;
+        border-radius: 28px;
+        border-color: #08A6E4;
+        padding: 1.2rem 6rem 1.2rem 6rem;
+    }
+    .form__policy-text {
+        margin-top:-2rem;
+        margin-left: 2rem;
+        font-weight: 400;
+        font-size: 12px;
+        padding-right:0.6rem;
+        color:#707070;
+    }
+    .form__name input {
+        margin-bottom:2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .form-section__contact {
+        margin-bottom:2rem;
+    }
+    .form-section {
+        display:flex;
+        justify-content: center;
+        padding-left:8rem;
+        padding-right:8rem;
+        padding:5.4rem;
+    }
+    .form__name input {
+        margin-bottom:2.6rem;
+    }
+        .contact__align-contact {
+            display: flex;
+            align-items: center;
+        }
+        .form-section__form {
+            width:40%;
+            padding: 0rem 0rem 2rem 6rem;
+        }
+        .form-section__contact {
+            margin-bottom:4rem;
+        }
+        .form-section__contact h2 {
+            font-family: "Raleway";
+            font-weight: 400;
+            font-size: 49px;
+            margin-bottom:0.8rem;
+            
+        }
+            .contact__email {
+                color:#A5A5A5;
+                font-size:16px;
+            }
+            .contact__email img {
+                vertical-align: middle;
+                margin-right:0.6rem;
+            }
+            .contact__phone {
+                color:#A5A5A5;
+                
+                font-size:16px;
+            }
+            .contact__phone img {
+                vertical-align: middle;
+                margin-right:0.6rem;
+                margin-left: 2rem;
+            }
+            .form_button {
+                margin-top:2rem;
+                margin-left:12.8rem;
+                background-color: #08A6E4;
+                color:white;
+                font-size: 13px;
+                font-weight: 700;
+                border-radius: 28px;
+                border-color: #08A6E4;
+                padding: 1.2rem 6rem 1.2rem 6rem;
+            }
+            .form__policy-text {
+                margin-top:-2rem;
+                margin-left: 2rem;
+                font-weight: 400;
+                font-size: 12px;
+                color:#707070;
+            }
+}

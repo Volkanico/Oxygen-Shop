@@ -49,8 +49,11 @@
         text-align: center;
         vertical-align:2.8rem;
     }
-    .plan-basic__price h3 {
+    .plan-basic__price h3,
+    .plan-professional__price h3,
+    .plan-premium__price h3 {
         font-size: 20px;
+        font-family: "Raleway";
     }
     .plan-basic__price .plan-basic__price__price {
         font-size: 46px;
