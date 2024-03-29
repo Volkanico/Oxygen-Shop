@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.navbar__menu-toggle');
     const menuItems = document.querySelector('.navbar__navbar-right__menu-items');
     const closeBtn = document.querySelector('.navbar__close-btn');
-    menuItems.style.display = 'none';
+   
 
     menuToggle.addEventListener('click', function () {
         menuItems.style.display = 'block';
@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
 window.addEventListener('resize', function() {
     if (window.innerWidth > 1000) {
         location.reload();
-    }    
+    }
 });
