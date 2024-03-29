@@ -3,7 +3,6 @@ header {
     top: 0;
     background-color: white;
 }
-
 .navbar {
         padding: 1rem 1rem 0rem 1rem;
         box-shadow: 0rem 0.125rem 0.125rem 0rem #A5A5A5;
@@ -25,7 +24,6 @@ header {
                 &.closed {
                     display: none;
                 }
-            
                 &__nav-link {
                     display: block;
                     padding: 0.375rem;
@@ -38,7 +36,6 @@ header {
                 }
             }
         }
-      
         &__menu-toggle,
         &__close-btn {
             vertical-align: middle;
@@ -55,8 +52,6 @@ header {
             display: none;
         }
     }
-
-
 @media screen and (min-width: 1000px) {
     .navbar {
         display: flex;
@@ -96,7 +91,6 @@ header {
                 }
             }
         }
-      
         &__menu-toggle,
         &__close-btn {
             display: none;
