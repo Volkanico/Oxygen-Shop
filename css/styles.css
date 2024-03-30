@@ -385,6 +385,9 @@ header {
   }
 }
 
+.pricings {
+  display: block;
+}
 .pricings__pricing-title {
   margin: 3rem 0rem 0.5rem 0rem;
   text-align: center;
@@ -393,94 +396,33 @@ header {
   font-family: "Raleway";
   margin-bottom: 1rem;
 }
-
-.pricings__plan-basic,
-.pricings__plan-professional,
-.pricings__plan-premium {
+.pricings__plans__plan-basic, .pricings__plans__plan-professional, .pricings__plans__plan-premium {
   border-radius: 16px;
   width: 80%;
   margin: 0 auto;
   font-size: 0;
   margin-bottom: 4rem;
 }
-
-.pricings__plan-basic:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 6px #FB3B64;
-}
-
-.pricings__plan-professional:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 6px #07ACE6;
-}
-
-.pricings__plan-premium:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 6px #55DFB4;
-}
-
-.pricings__plan-basic {
-  border: 1px #FB3B64 solid;
-}
-
-.pricings__plan-professional {
-  border: 1px #07ACE6 solid;
-}
-
-.pricings__plan-premium {
-  border: 1px #55DFB4 solid;
-}
-
-.plan-basic__price,
-.plan-professional__price,
-.plan-premium__price {
+.pricings__plans__plan-basic__price, .pricings__plans__plan-professional__price, .pricings__plans__plan-premium__price {
   width: 50%;
   display: inline-block;
   font-size: 16px;
   text-align: center;
   vertical-align: 2.8rem;
 }
-
-.plan-basic__price h3,
-.plan-professional__price h3,
-.plan-premium__price h3 {
+.pricings__plans__plan-basic__price__title, .pricings__plans__plan-professional__price__title, .pricings__plans__plan-premium__price__title {
   font-size: 20px;
   font-family: "Raleway";
 }
-
-.plan-basic__price .plan-basic__price__price {
+.pricings__plans__plan-basic__price__price, .pricings__plans__plan-professional__price__price, .pricings__plans__plan-premium__price__price {
   font-size: 46px;
   font-weight: 300;
-  color: #FB3B64;
 }
-
-.plan-professional__price .plan-professional__price__price {
-  font-size: 46px;
-  font-weight: 300;
-  color: #07ACE6;
-}
-
-.plan-premium__price .plan-premium__price__price {
-  font-size: 46px;
-  font-weight: 300;
-  color: #55DFB4;
-}
-
-.plan-professional__limited-offer,
-.plan-premium__limited-offer {
+.pricings__plans__plan-basic__price__limited-offer, .pricings__plans__plan-professional__price__limited-offer, .pricings__plans__plan-premium__price__limited-offer {
   font-size: 12px;
   font-weight: 700;
 }
-
-.plan__attributes {
-  padding: 1rem 0rem 2rem 0rem;
-  width: 50%;
-  display: inline-block;
-}
-
-.plan-basic__button,
-.plan-professional__button,
-.plan-premium__button {
+.pricings__plans__plan-basic__button, .pricings__plans__plan-professional__button, .pricings__plans__plan-premium__button {
   margin: 0 auto;
   padding-top: 0.8rem;
   height: 3rem;
@@ -492,44 +434,63 @@ header {
   border-radius: 24px;
   border-color: #FB3B64;
 }
-
-.plan-basic__button {
+.pricings__plans__plan-basic__attributes, .pricings__plans__plan-professional__attributes, .pricings__plans__plan-premium__attributes {
+  padding: 1rem 0rem 2rem 0rem;
+  width: 50%;
+  display: inline-block;
+}
+.pricings__plans__plan-basic__attributes__check-attribute, .pricings__plans__plan-professional__attributes__check-attribute, .pricings__plans__plan-premium__attributes__check-attribute {
+  display: block;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.pricings__plans__plan-basic__attributes__check-attribute__img, .pricings__plans__plan-professional__attributes__check-attribute__img, .pricings__plans__plan-premium__attributes__check-attribute__img {
+  margin-right: 5px;
+}
+.pricings__plans__plan-basic__attributes__check-attribute__checkbox-text, .pricings__plans__plan-professional__attributes__check-attribute__checkbox-text, .pricings__plans__plan-premium__attributes__check-attribute__checkbox-text {
+  font-size: 16px;
+}
+.pricings__plans__plan-basic {
+  border: 1px #FB3B64 solid;
+}
+.pricings__plans__plan-basic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #FB3B64;
+}
+.pricings__plans__plan-basic__price__price {
+  color: #FB3B64;
+}
+.pricings__plans__plan-basic__button {
   background-color: #FB3B64;
   margin-top: 1rem;
   margin-bottom: -1.6rem;
 }
-
-.plan-professional__button {
+.pricings__plans__plan-professional {
+  border: 1px #07ACE6 solid;
+}
+.pricings__plans__plan-professional:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #07ACE6;
+}
+.pricings__plans__plan-professional__price__price {
+  color: #07ACE6;
+}
+.pricings__plans__plan-professional__button {
   background-color: #07ACE6;
   margin-bottom: -1.6rem;
 }
-
-.plan-premium__button {
+.pricings__plans__plan-premium {
+  border: 1px #55DFB4 solid;
+}
+.pricings__plans__plan-premium:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 6px #55DFB4;
+}
+.pricings__plans__plan-premium__price__price {
+  color: #55DFB4;
+}
+.pricings__plans__plan-premium__button {
   background-color: #55DFB4;
   margin-bottom: -1.6rem;
-}
-
-.attributes__check-attribute {
-  display: block;
-  margin: 1rem 0rem 1rem 0rem;
-}
-
-.attributes__check-attribute img {
-  margin-right: 5px;
-}
-
-.attributes__check-attribute span {
-  font-size: 14px;
-}
-
-.checkbox-text {
-  font-size: 16px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 1000px) {
-  .pricings {
-    display: block;
-  }
 }
 @media screen and (min-width: 1000px) {
   .pricings {
@@ -538,22 +499,21 @@ header {
   .pricings__plans {
     display: flex;
   }
-  .pricings__plan-basic,
-  .pricings__plan-professional,
-  .pricings__plan-premium {
+  .pricings__plans__plan-basic, .pricings__plans__plan-professional, .pricings__plans__plan-premium {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0rem 1rem 0rem 1rem;
     padding-top: 2rem;
   }
-  .plan__attributes {
+  .pricings__plans__plan-basic__attributes, .pricings__plans__plan-professional__attributes, .pricings__plans__plan-premium__attributes {
     text-align: center;
   }
   .pricings__pricing-title {
     margin-bottom: 3rem;
   }
 }
+
 .form-section__contact p {
   font-weight: 400;
   font-size: 16px;
