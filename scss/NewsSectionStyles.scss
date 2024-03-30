@@ -1,223 +1,191 @@
-@media screen and (min-width: 320px) and (max-width: 1000px) {
-    .news{
+.news{
         background-color: #F7F7F7;
         padding:2rem;
         display: block;
-    }
-    .news__article-one{
-        background-position: 9.6rem 0rem;
-        background-image: url('../img/icons/Frame\ 11.png');
-        background-size: 6rem 6rem;
-        background-repeat: no-repeat;
-        padding-top:2rem
-    }
-            .news__article-one img {    
-                height:5.2rem;
-                width:10rem;
-                display: block;
-                margin:0 auto        
-            }
-            .news__article-one h3 {
-                padding:1rem;
-                font-family: "Raleway";
-                font-weight: 400;
-                font-size:30px;
-            }
-            .news__article-one p {
-                padding:2rem 1rem 2rem 1rem;
-                font-size: 14px;
-                font-weight: 400;
-            }
-
-    .news__article-two {
-        padding-top:1rem;
-        margin-top:2rem;
-        background-position: 6rem 1rem;
-        background-image: url('../img/icons/Ellipse\ 3.png');
-        background-size: 7rem 7rem;
-        background-repeat: no-repeat;
-    }
-            .news__article-two img { 
-                width:9rem;
-                height:7.2rem;
-                display: block;
-                margin-top:0.6rem;
-                margin-left:6rem;
-            }
-            .news__article-two h3 {
-                padding:1rem 3rem 0rem 1rem;
-                font-family: "Raleway";
-                font-weight: 400;
-                font-size:30px;
-            }
-
-            .news__article-two p {
-                padding:2rem 1rem 2rem 1rem;
-                font-size: 14px;
-                font-weight: 400;
-            }
-             
-    .news__article-three {
-        padding-top:1rem;
-        margin-top:2rem;    
-    }
-            .news__article-three img {
-                margin:0 auto;
-                padding:2rem 0rem 0rem 0rem;
-                
-            }
-            .news__article-three h3 {
-                padding:1rem 3rem 0rem 1rem;
-                font-weight: 400;
-                font-size:30px;
-            }
-
-            .news__article-three p {
-                padding:2rem 2rem 2rem 1rem;
-                font-size: 16px;
-                font-weight: 400;
-            }
-
-            .news__article-three .article-three__img{
-                background-color: #55DFB4;
-                height:12rem;
-                
-            }
-        .news__article-one,
-        .news__article-two,
-        .news__article-three {
+        &__article-one,
+        &__article-two,
+        &__article-three {
             background-color: white;
-            
-        }
-}
-
-@media screen and (min-width: 1000px) {
-    .news {
-        background-color: #F7F7F7;
-        padding:6rem 10rem 6rem 10rem;
-        display: block;
-    }
-    .news__article-one {
-        display: flex;
-        flex-direction:row-reverse;
-        padding-top:2rem;
-        background-color: white;
-    }
-            .news__article-one .article-one__img {
-                width:50%;
-                margin-right:4rem
-            }
-            
-                .article-one__img img {    
-                    padding:4rem 4rem 4rem 4rem;  
-                    background-position: 16rem 0rem;
-                    background-image: url('../img/icons/Rectange\ 30.png');
-                    background-size: 14rem 14rem;
-                    background-repeat: no-repeat;    
-                }
-
-            .article-one__text{
-                padding-top:2rem;
-            }
-
-                .article-one__text h3 {
-                    padding:1rem;
+            padding-top: 1rem;
+            background-repeat: no-repeat;
+            margin-top:2rem;
+            &__text{
+                &__title{
                     font-family: "Raleway";
                     font-weight: 400;
                     font-size:30px;
                 }
-                .article-one__text p {
-                    padding:2rem 0rem 2rem 1rem;
+                &__paragraph{
+                    padding:2rem 1rem 2rem 1rem;
                     font-size: 14px;
                     font-weight: 400;
                 }
-            
-            .news__article-one__subline-red {
-                margin-left:1rem;
-                border-bottom: 2px #FB3B64 solid;
-                width:80%;
             }
-            
-            
-    .news__article-two {
-        margin-top:2rem;
-        display: flex;
-        padding-top:2rem;
-        background-color: white;
-    }
-                .news__article-two .article-two__img {
-                    width:50%;
+        }
+        &__article-two {
+            &__img {
+                &__iphone {
+                    background-image: url('../img/icons/Ellipse\ 3.png');
+                    background-position: 0rem 0rem;
+                    background-size: 7.8rem 7.8rem;
+                    background-repeat: no-repeat;
+                    padding-top:0.4rem;
+                    width:10rem;
+                    height:8.6rem;
+                    display: block;
+                    margin-top:0.6rem;
+                    margin-left:6rem;
+                } 
+            }
+            &__text {
+                &__title {
+                    padding:1rem 3rem 0rem 1rem;
                 }
-                    .article-two__img img {
-                        padding:1.4rem 4rem 0rem 4rem;  
-                        background-position: 4rem 1rem;
-                        background-image: url('../img/icons/Ellipse\ 3.png');
-                        background-size: 19rem 19rem;
-                        background-repeat: no-repeat;
-                        margin:0 auto;
-                    }
-                .article-two__text{
+            }
+        }
+        &__article-three {
+            &__img {
+                background-color: #55DFB4;
+                height:12rem;
+                &__trumpet {
+                    padding:2rem 0rem 0rem 0rem;   
+                }
+            }
+            &__text {
+                &__title{
+                    padding:1rem 3rem 0rem 1rem;
+                    font-family: 'Open Sans';
+                }
+                &__paragraph{
+                    padding:2rem 2rem 2rem 1rem;
+                    font-size: 16px;
+                }           
+            }  
+        }
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+        &__article-one{
+            margin-top:0rem;
+            
+            padding-top:2rem;
+            &__img {  
+                &__macbook {
+                    height:8rem;
+                    width:12rem;
+                    display: block;
+                    margin:0 auto;
+                    background-position: 6rem 0rem;
+                    background-image: url('../img/icons/Frame\ 11.png');
+                    background-size: 6rem 6rem;
+                    background-repeat: no-repeat;
+                    padding:1rem;
                     padding-top:2rem;
-                    
+                }        
+            }
+            &__text {
+                &__title{
+                    padding:1rem;
                 }
-                    .news__article-two h3 {
-                        padding: 1rem 14rem 1rem 12rem;
-                        font-family: "Raleway";
-                        font-weight: 400;
-                        font-size:30px;
-                    }
-        
-                    .news__article-two p {
-                        padding:2rem 1rem 2rem 12rem;
-                        font-size: 14px;
-                        font-weight: 400;
-                    }
-                .news__article-two__subline-blue {
+            }
+        }             
+    }  
+@media screen and (min-width: 1000px) {
+        padding:6rem 10rem 6rem 10rem;
+        &__article-one {
+            display: flex;
+            flex-direction:row-reverse;
+            padding-top:2rem;
+            &__img {
+                width:50%;
+                margin-right:4rem;
+                display: flex;
+                justify-content: center;
+               &__macbook{
+                    padding:4rem 4rem 4rem 4rem;  
+                    background-position: 16rem 0rem;
+                    background-image: url('../img/icons/Rectange\ 30.png');
+                    background-size: 14rem 14rem;
+                    background-repeat: no-repeat;
+               }
+            }
+            &__text{
+                padding-top:2rem;
+                &__title {
+                    padding:1rem;
+                }
+                &__paragraph {
+                    padding:2rem 0rem 2rem 1rem;
+                }
+                &__subline-red {
+                    margin-left:1rem;
+                    border-bottom: 2px #FB3B64 solid;
+                    width:80%;
+                }
+            }        
+        }
+        &__article-two {
+            display: flex;
+            padding-top:2rem;
+            &__img {
+                display: flex;
+                justify-content: center;
+                width:50%;
+                &__iphone {  
+                    height:19.4rem;
+                    width:23rem;  
+                    background-size: 17.2rem 17.2rem;
+                    background-position: 0.6rem 0rem;
+                    padding:0.6rem;
+                }
+            }
+            &__text{
+                padding-top:2rem;
+                &__title {
+                    padding: 1rem 14rem 1rem 12rem;
+                }
+                &__paragraph {
+                    padding:2rem 1rem 2rem 12rem;
+                }
+                &__subline-blue {
                     margin-left:12rem;
                     border-bottom: 2px #08A6E4 solid;
                     width:54%;
+                }  
+            }     
+        }            
+        &__article-three{
+            background-color: #F7F7F7;
+            display:flex;
+            margin-top:2rem;
+            &__text{
+                background-color: white;
+                width:50%;
+                margin-right:4rem;
+                &__title {
+                    margin-top:4rem;
+                    padding:0rem 14rem 0rem 1rem;
                 }
-
-    .news__article-three{
-        display:flex;
-        background-color:#F7F7F7;
-        margin-top:2rem;
-    }
-                
-                .article-three__text{
-                    background-color: white;
-                    width:50%;
-                    margin-right:4rem;
+                &__paragraph {
+                    padding:2rem 2rem 2rem 1rem;
+                    font-size: 16px;
                 }
-                    .article-three__text h3 {
-                        margin-top:4rem;
-                        padding:0rem 14rem 0rem 1rem;
-                        font-weight: 400;
-                        font-size:30px;
-                    }
-            
-                    .article-three__text p {
-                        padding:2rem 2rem 2rem 1rem;
-                        font-size: 16px;
-                        font-weight: 400;
-                    }
-        
-                .news__article-three .article-three__img{
-                    width:50%;
-                    background-color: #55DFB4;
-                }
-                    .article-three__img img{
-                        margin:4rem 5rem 1rem 7rem;
-                        height:16rem;
-                        width:20rem;
-                    }
-
-                .news__article-three__subline-green {
+                &__subline-green {
                     margin-left:1rem;
                     border-bottom: 2px #55DFB4 solid;
                     width:80%;
-                    
                 }
-                
-      
+            }
+            &__img{
+                width:50%;
+                height:100%;
+                display: flex;
+                justify-content: center;
+                &__trumpet {
+                    margin:4rem 5rem 1rem 7rem;
+                    height:16rem;
+                    width:20rem;
+                }
+            } 
+        }            
+    }
 }

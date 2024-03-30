@@ -13,22 +13,25 @@
             
             &__background-circle-red {
                 background-image: url('../img/icons/Ellipse\ 1.png');
-            }
-                &__background-circle-red img {
-                    margin: 0.8rem 0rem 0rem 2.8rem
+                &__icon-person {
+                    margin: 0.8rem 0rem 0rem 2.8rem;
                 }
+            }
+            
             &__background-circle-blue {
                 background-image: url('../img/icons/Ellipse\ 2.png');
+                &__icon-eye{
+                    margin: 1.2rem 0rem 0rem 2.8rem;
                 }
-                &__background-circle-blue img {
-                    margin: 1.2rem 0rem 0rem 2.8rem
-                }
-            &__background-circle-green {
-                background-image: url('../img/icons/Ellipse\ 1\ \(1\).png');   
             }
-                &__background-circle-green img {
-                    margin: 1rem 0rem 0rem 2.8rem
-                }
+                
+            &__background-circle-green {
+                background-image: url('../img/icons/Ellipse\ 1\ \(1\).png');
+                &__icon-catalog {
+                    margin: 1rem 0rem 0rem 2.8rem;
+                }   
+            }
+            
             &__background-circle-red,
             &__background-circle-green,
             &__background-circle-blue {
