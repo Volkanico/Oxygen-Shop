@@ -492,6 +492,19 @@ header {
   background-color: #55DFB4;
   margin-bottom: -1.6rem;
 }
+.pricings__selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.pricings__selection__select {
+  height: 3rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: #07ACE6;
+  color: white;
+}
 @media screen and (min-width: 62.5rem) {
   .pricings {
     padding: 4rem 10rem 4rem 10rem;
