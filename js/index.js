@@ -2,7 +2,7 @@ import { setupMenu } from './menu.js';
 import { setupScroll } from './scroll.js';
 import { setupModal,  enviarNewsletter } from './modal.js';
 import { currencies } from './currencyPrices.js';
-import { enviarFormulario } from './form.js';
+import { enviarFormulario, enviarDatos } from './form.js';
 
 const form = document.querySelector('.form-section__form');
 const newsletter = document.getElementById("newsletter");
@@ -17,8 +17,7 @@ document.querySelector(".pricings__selection__select").addEventListener('change'
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-    if (enviarFormulario()) {
-        //alert("todo ok")
+    if (enviarFormulario() && enviarDatos()) {
         form.submit();
         
     }
@@ -26,10 +25,13 @@ form.addEventListener('submit', function(event) {
 
 newsletter.addEventListener('submit', function(event){
     event.preventDefault();
-    if (enviarNewsletter()) {
+    if (enviarNewsletter() && enviarDatos()) {
         newsletter.submit();
     }
 });
+
+
+
 
 
 

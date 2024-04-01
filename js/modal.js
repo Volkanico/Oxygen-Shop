@@ -72,10 +72,41 @@ export function enviarNewsletter(event) {
         emailInput.style.borderStyle = '';
         console.log("Email submitted:", email);
         closeModal();
+        enviarDatosNewsletter()
         /*Change storage to LocalStorage for no reappear modal*/
         sessionStorage.setItem('newsletterSubscribed', 'true');
+        
         return true;
     }
     
     
+}
+
+function enviarDatosNewsletter() {
+    const formData = {
+        /*title: 'foo',
+        body: 'bar',
+        userId: 1*/
+        email: emailInput.value
+    };
+
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    })
+    .then((response) => {
+        if (response.ok) {
+            console.log('Los datos se enviaron correctamente');
+            return response.json();
+        } else {
+            throw new Error('Error al enviar datos');
+        }
+    })
+    .then((json) => {
+        console.log(json);
+    })
+    .catch((error) => console.error('Error al enviar datos:', error));
 }

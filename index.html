@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oxygen Shop</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-KsjEw+ijha8a2GU6WjGvXMe8z2S3GGfEgMzrN1J57EPcFPJ2r7LjcVU47iQzkMbvmG78dL/aE51eDQrQxVEuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
@@ -213,7 +215,16 @@
         </div>
     </section>
 
-    
+    <div class="gallery-container">
+        <img class="gallery-container__gallery-item" src="./img/static/picography-filling-wine-glasses-on-counter.jpg" alt="Imagen 1">
+        <img class="gallery-container__gallery-item" src="./img/static/picography-river-canyon-sky.jpg" alt="Imagen 2">
+        <img class="gallery-container__gallery-item" src="./img/static/picography-woman-takes-photo-in-front-of-door.jpg" alt="Imagen 3">
+    </div>
+    <nav class="gallery-navigation">
+        <button class="gallery-navigation__nav-button prev-button"><img src="./img/icons/icons8-galón-izquierdo-30.png" alt=""></button>
+        <button class="gallery-navigation__nav-button next-button"><img src="./img/icons/icons8-chebrón-hacia-la-derecha-30.png" alt=""></button>
+    </nav>
+
     
     <section class="form-section">
         <div class="form-section__contact">
@@ -283,7 +294,7 @@
 
 
     <script type="module" src="./js/index.js"></script>
-
+    <script src="./js/slider.js"></script>
    
 </body>
 </html>

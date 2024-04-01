@@ -8,13 +8,15 @@ export function enviarFormulario() {
     let isNameValid = validateInput(nameInput, nameLabel);
     let isEmailValid = validateEmail(emailInput.value.trim());
     let isCheckboxChecked = checkbox.checked;
-if (!isCheckboxChecked) {
-    checkbox.style.outlineColor = 'red';
-    checkbox.style.outlineStyle = 'solid';
-    checkbox.style.outlineWidth = '2px';
-} else {
-    checkbox.style.outline = '';
-}
+    if (!isCheckboxChecked) {
+        checkbox.style.outlineColor = 'red';
+        checkbox.style.outlineStyle = 'solid';
+        checkbox.style.outlineWidth = '2px';
+        return false; 
+    } else {
+        checkbox.style.outline = '';
+    }
+    
     return isNameValid && isEmailValid && isCheckboxChecked;
 }
 
@@ -53,4 +55,35 @@ function validateEmail(email) {
         emailInput.style.borderStyle = '';
         return true;
     }
+}
+
+
+export function enviarDatos() {
+    const formData = {
+        /*title: 'foo',
+        body: 'bar',
+        userId: 1*/
+        name: nameInput.value,
+        email: emailInput.value
+    };
+
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    })
+    .then((response) => {
+        if (response.ok) {
+            console.log('Los datos se enviaron correctamente');
+            return response.json();
+        } else {
+            throw new Error('Error al enviar datos');
+        }
+    })
+    .then((json) => {
+        console.log(json);
+    })
+    .catch((error) => console.error('Error al enviar datos:', error));
 }
