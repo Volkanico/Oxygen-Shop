@@ -19,7 +19,10 @@ if (!isCheckboxChecked) {
 }
 
 function validateInput(input, label) {
-    if (input.value.trim() === '') {
+    const inputValue = input.value.trim();
+    const lettersRegex = /^[a-zA-Z]{2,100}$/;
+
+    if (inputValue === '' || !lettersRegex.test(inputValue)) {
         label.style.color = 'red';
         input.style.borderColor = 'red';
         input.style.borderWidth = '3px';
@@ -33,6 +36,7 @@ function validateInput(input, label) {
         return true;
     }
 }
+
 
 function validateEmail(email) {
     const emailRegex =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ ;
