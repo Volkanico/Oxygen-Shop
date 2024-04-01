@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-
-
-
     <header>
+        <div class="progress-bar"></div>
         <nav class="navbar">
             <div class="navbar__navbar-left">
                 <img class="navbar__navbar-left__logo"src="./img/logo/Logo.png" alt="Logo de la empresa"/>
@@ -208,7 +206,7 @@
         </div>
     </section>
 
-
+    
     
     <section class="form-section">
         <div class="form-section__contact">
@@ -247,7 +245,8 @@
             <button class="form-section__button">Send</button>
         </form>
     </section>
-
+    
+    <button class="btnGoToTop">Return to top</button>
 
 
     <footer class="footer-section">
@@ -260,6 +259,18 @@
             <img class="footer-section__social__icon" src="./img/icons/Facebook (3) 1.png" alt="Logo de la empresa"/>
         </div>
     </footer>
-    <script src="./js/index.js"></script>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscribe to our newsletter</h2>
+            <form id="subscribeForm">
+                <input type="email" id="emailInput" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
 </body>
 </html>
