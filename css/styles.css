@@ -17,7 +17,7 @@ body {
 }
 .sales__sales-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 300;
   padding: 1.6rem 4rem 2rem 4rem;
 }
@@ -55,11 +55,11 @@ body {
 }
 .sales__popular-sales__post__desc {
   color: #A5A5A5;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   padding: 1.4rem 8rem 1.4rem 8rem;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .sales {
     padding-bottom: 8rem;
   }
@@ -69,7 +69,7 @@ body {
   }
   .sales__sales-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
     padding: 1.6rem 4rem 6rem 4rem;
   }
@@ -125,7 +125,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -193,7 +193,7 @@ header {
   margin-bottom: 3.6rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .main {
     padding-top: 6rem;
     padding-bottom: 3rem;
@@ -225,11 +225,11 @@ header {
 .news__article-one__text__title, .news__article-two__text__title, .news__article-three__text__title {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .news__article-one__text__paragraph, .news__article-two__text__paragraph, .news__article-three__text__paragraph {
   padding: 2rem 1rem 2rem 1rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 .news__article-two__img__iphone {
@@ -260,9 +260,9 @@ header {
 }
 .news__article-three__text__paragraph {
   padding: 2rem 2rem 2rem 1rem;
-  font-size: 16px;
+  font-size: 1rem;
 }
-@media screen and (min-width: 320px) and (max-width: 1000px) {
+@media screen and (min-width: 20rem) and (max-width: 62.5rem) {
   .news__article-one {
     margin-top: 0rem;
     padding-top: 2rem;
@@ -283,7 +283,7 @@ header {
     padding: 1rem;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .news {
     padding: 6rem 10rem 6rem 10rem;
   }
@@ -316,7 +316,7 @@ header {
   }
   .news__article-one__text__subline-red {
     margin-left: 1rem;
-    border-bottom: 2px #FB3B64 solid;
+    border-bottom: 0.125rem #FB3B64 solid;
     width: 80%;
   }
   .news__article-two {
@@ -346,7 +346,7 @@ header {
   }
   .news__article-two__text__subline-blue {
     margin-left: 12rem;
-    border-bottom: 2px #08A6E4 solid;
+    border-bottom: 0.125rem #08A6E4 solid;
     width: 54%;
   }
   .news__article-three {
@@ -365,11 +365,11 @@ header {
   }
   .news__article-three__text__paragraph {
     padding: 2rem 2rem 2rem 1rem;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .news__article-three__text__subline-green {
     margin-left: 1rem;
-    border-bottom: 2px #55DFB4 solid;
+    border-bottom: 0.125rem #55DFB4 solid;
     width: 80%;
   }
   .news__article-three__img {
@@ -392,12 +392,12 @@ header {
   margin: 3rem 0rem 0.5rem 0rem;
   text-align: center;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: "Raleway";
   margin-bottom: 1rem;
 }
 .pricings__plans__plan-basic, .pricings__plans__plan-professional, .pricings__plans__plan-premium {
-  border-radius: 16px;
+  border-radius: 1rem;
   width: 80%;
   margin: 0 auto;
   font-size: 0;
@@ -406,20 +406,20 @@ header {
 .pricings__plans__plan-basic__price, .pricings__plans__plan-professional__price, .pricings__plans__plan-premium__price {
   width: 50%;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   vertical-align: 2.8rem;
 }
 .pricings__plans__plan-basic__price__title, .pricings__plans__plan-professional__price__title, .pricings__plans__plan-premium__price__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Raleway";
 }
 .pricings__plans__plan-basic__price__price, .pricings__plans__plan-professional__price__price, .pricings__plans__plan-premium__price__price {
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: 300;
 }
 .pricings__plans__plan-basic__price__limited-offer, .pricings__plans__plan-professional__price__limited-offer, .pricings__plans__plan-premium__price__limited-offer {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 .pricings__plans__plan-basic__button, .pricings__plans__plan-professional__button, .pricings__plans__plan-premium__button {
@@ -428,10 +428,10 @@ header {
   height: 3rem;
   width: 9.4rem;
   color: white;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 700;
   text-align: center;
-  border-radius: 24px;
+  border-radius: 1.5rem;
   border-color: #FB3B64;
 }
 .pricings__plans__plan-basic__attributes, .pricings__plans__plan-professional__attributes, .pricings__plans__plan-premium__attributes {
@@ -444,17 +444,17 @@ header {
   margin: 1rem 0rem 1rem 0rem;
 }
 .pricings__plans__plan-basic__attributes__check-attribute__img, .pricings__plans__plan-professional__attributes__check-attribute__img, .pricings__plans__plan-premium__attributes__check-attribute__img {
-  margin-right: 5px;
+  margin-right: 0.313rem;
 }
 .pricings__plans__plan-basic__attributes__check-attribute__checkbox-text, .pricings__plans__plan-professional__attributes__check-attribute__checkbox-text, .pricings__plans__plan-premium__attributes__check-attribute__checkbox-text {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .pricings__plans__plan-basic {
   border: 1px #FB3B64 solid;
 }
 .pricings__plans__plan-basic:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 6px #FB3B64;
+  box-shadow: 0 0 0.375rem #FB3B64;
 }
 .pricings__plans__plan-basic__price__price {
   color: #FB3B64;
@@ -469,7 +469,7 @@ header {
 }
 .pricings__plans__plan-professional:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 6px #07ACE6;
+  box-shadow: 0 0 0.375rem #07ACE6;
 }
 .pricings__plans__plan-professional__price__price {
   color: #07ACE6;
@@ -483,7 +483,7 @@ header {
 }
 .pricings__plans__plan-premium:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 6px #55DFB4;
+  box-shadow: 0 0 0.375rem #55DFB4;
 }
 .pricings__plans__plan-premium__price__price {
   color: #55DFB4;
@@ -492,7 +492,7 @@ header {
   background-color: #55DFB4;
   margin-bottom: -1.6rem;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .pricings {
     padding: 4rem 10rem 4rem 10rem;
   }
@@ -523,17 +523,17 @@ header {
 .form-section__contact__title {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 0.8rem;
 }
 .form-section__contact__text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 .form-section__contact__align-contact__email {
   color: #A5A5A5;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .form-section__contact__align-contact__email__img {
   vertical-align: middle;
@@ -542,7 +542,7 @@ header {
 .form-section__contact__align-contact__phone {
   color: #A5A5A5;
   margin-top: 0.8rem;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .form-section__contact__align-contact__phone__img {
   vertical-align: middle;
@@ -550,18 +550,18 @@ header {
 }
 .form-section__form__name__label, .form-section__form__email__label {
   display: block;
-  font-size: 11px;
+  font-size: 0.688rem;
   font-weight: 600;
   color: #08A6E4;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  letter-spacing: 3.28px;
+  letter-spacing: 0.205rem;
 }
 .form-section__form__name__input, .form-section__form__email__input {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #95989A;
+  border-bottom: 0.063rem solid #95989A;
   outline: none;
 }
 .form-section__form__name__input {
@@ -577,22 +577,22 @@ header {
 .form-section__form__policy__check__checkbox {
   height: 1.6rem;
   width: 1.6rem;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 .form-section__form__policy__check__checkbox:checked {
   background-image: url("../img/icons/Checkmark 1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1rem 1rem;
-  border: 1px #08A6E4 solid;
-  border-radius: 4px;
+  border: 0.063rem #08A6E4 solid;
+  border-radius: 0.25rem;
   appearance: none;
 }
 .form-section__form__policy__text {
   margin-top: -2rem;
   margin-left: 2rem;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-right: 0.6rem;
   color: #707070;
 }
@@ -601,13 +601,13 @@ header {
   margin-left: 5rem;
   background-color: #08A6E4;
   color: white;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 700;
-  border-radius: 28px;
+  border-radius: 1.75rem;
   border-color: #08A6E4;
   padding: 1.2rem 6rem 1.2rem 6rem;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .form-section {
     display: flex;
     justify-content: center;
@@ -621,7 +621,7 @@ header {
   .form-section__contact__title {
     font-family: "Raleway";
     font-weight: 400;
-    font-size: 49px;
+    font-size: 3.063rem;
     margin-bottom: 0.8rem;
   }
   .form-section__contact__align-contact {
@@ -643,7 +643,7 @@ header {
     margin-top: -2rem;
     margin-left: 2rem;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #707070;
   }
   .form-section__button {
@@ -708,7 +708,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  height: 5px;
+  height: 0.313rem;
   background-color: #08A6E4;
   z-index: 9999;
   display: none;
@@ -717,10 +717,10 @@ header {
 .btnGoToTop {
   display: none;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
   background-color: #08A6E4;
   color: white;
   border: none;
@@ -745,15 +745,15 @@ header {
 .modal-content {
   background-color: #fefefe;
   margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 1.25rem;
+  border: 0.063rem solid #888;
   width: 80%;
 }
 
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 

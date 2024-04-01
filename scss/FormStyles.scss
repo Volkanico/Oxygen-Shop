@@ -5,18 +5,18 @@
         &__title{
             font-family: "Raleway";
             font-weight: 400;
-            font-size: 40px;
+            font-size: 2.5rem;
             margin-bottom:0.8rem;
         }
         &__text{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 1rem;
             margin-bottom:2rem;
         }
         &__align-contact{
             &__email{
                 color:#A5A5A5;
-                font-size:16px;
+                font-size:1rem;
                 &__img {
                     vertical-align: middle;
                     margin-right:0.6rem;
@@ -28,7 +28,7 @@
             &__phone{
                 color:#A5A5A5;
                 margin-top:0.8rem;
-                font-size:16px;
+                font-size:1rem;
                 &__img {
                     vertical-align: middle;
                     margin-right:0.6rem;
@@ -44,18 +44,18 @@
         &__email{
             &__label{
                 display: block;
-                font-size: 11px;
+                font-size: 0.688rem;
                 font-weight: 600;
                 color:#08A6E4;
                 text-transform: uppercase;
                 margin-bottom:1rem;
-                letter-spacing: 3.28px;
+                letter-spacing: 0.205rem;
             }
             &__input{
                 display: block;
                 width:100%;
                 border: none;
-                border-bottom: 1px solid #95989A;
+                border-bottom: 0.063rem solid #95989A;
                 outline: none;
             }
         }
@@ -72,14 +72,14 @@
                 &__checkbox{
                     height:1.6rem;
                     width:1.6rem;
-                    border-radius: 4px;
+                    border-radius: 0.25rem;
                     &:checked {
                         background-image: url('../img/icons/Checkmark\ 1.png');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: 1rem 1rem;
-                        border:1px #08A6E4 solid;
-                        border-radius: 4px;
+                        border:0.063rem #08A6E4 solid;
+                        border-radius: 0.25rem;
                         appearance: none;  
                     }
                 }
@@ -88,7 +88,7 @@
                 margin-top:-2rem;
         margin-left: 2rem;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 0.75rem;
         padding-right:0.6rem;
         color:#707070;
                 &__desc {
@@ -102,14 +102,14 @@
         margin-left:5rem;
         background-color: #08A6E4;
         color:white;
-        font-size: 13px;
+        font-size: 0.813rem;
         font-weight: 700;
-        border-radius: 28px;
+        border-radius: 1.75rem;
         border-color: #08A6E4;
         padding: 1.2rem 6rem 1.2rem 6rem;
     }
 
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 62.5rem) {
         display:flex;
         justify-content: center;
         padding-left:8rem;
@@ -120,7 +120,7 @@
             &__title{
                 font-family: "Raleway";
                 font-weight: 400;
-                font-size: 49px;
+                font-size: 3.063rem;
                 margin-bottom:0.8rem;
             }
             &__align-contact {
@@ -145,7 +145,7 @@
                     margin-top:-2rem;
                     margin-left: 2rem;
                     font-weight: 400;
-                    font-size: 12px;
+                    font-size: 0.75rem;
                     color:#707070;
                 }
             }

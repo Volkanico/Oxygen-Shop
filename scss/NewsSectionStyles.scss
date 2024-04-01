@@ -13,11 +13,11 @@
                 &__title{
                     font-family: "Raleway";
                     font-weight: 400;
-                    font-size:30px;
+                    font-size:1.875rem;
                 }
                 &__paragraph{
                     padding:2rem 1rem 2rem 1rem;
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     font-weight: 400;
                 }
             }
@@ -58,12 +58,12 @@
                 }
                 &__paragraph{
                     padding:2rem 2rem 2rem 1rem;
-                    font-size: 16px;
+                    font-size: 1rem;
                 }           
             }  
         }
 
-@media screen and (min-width: 320px) and (max-width: 1000px) {
+@media screen and (min-width: 20rem) and (max-width: 62.5rem) {
         &__article-one{
             margin-top:0rem;
             
@@ -89,7 +89,7 @@
             }
         }             
     }  
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
         padding:6rem 10rem 6rem 10rem;
         &__article-one {
             display: flex;
@@ -118,7 +118,7 @@
                 }
                 &__subline-red {
                     margin-left:1rem;
-                    border-bottom: 2px #FB3B64 solid;
+                    border-bottom: 0.125rem #FB3B64 solid;
                     width:80%;
                 }
             }        
@@ -148,7 +148,7 @@
                 }
                 &__subline-blue {
                     margin-left:12rem;
-                    border-bottom: 2px #08A6E4 solid;
+                    border-bottom: 0.125rem #08A6E4 solid;
                     width:54%;
                 }  
             }     
@@ -167,11 +167,11 @@
                 }
                 &__paragraph {
                     padding:2rem 2rem 2rem 1rem;
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
                 &__subline-green {
                     margin-left:1rem;
-                    border-bottom: 2px #55DFB4 solid;
+                    border-bottom: 0.125rem #55DFB4 solid;
                     width:80%;
                 }
             }

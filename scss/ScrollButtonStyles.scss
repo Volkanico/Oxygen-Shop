@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    height: 5px;
+    height: 0.313rem;
     background-color: #08A6E4;
     z-index: 9999;
     display: none;
@@ -11,10 +11,10 @@
 .btnGoToTop {
     display: none;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 20px;
-    border-radius: 5px;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
     background-color: #08A6E4;
     color: white;
     border: none;
